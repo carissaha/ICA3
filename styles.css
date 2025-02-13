@@ -1,7 +1,21 @@
 body {
-    background: url("background.png") no-repeat center center fixed;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-    margin: 0;
+  background: url("background.png") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+.spiderman {
+  z-index: 1;
+  width: 100px;
+  position: absolute;
+  top: 550px;
+  left: 550px;
+}
+.spideywomen {
+  z-index: 1;
+  width: 110px;
+  position: absolute;
+  top: 550px;
+  left: 500px;
 }
